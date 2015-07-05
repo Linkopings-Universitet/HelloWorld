@@ -9,7 +9,8 @@
 
 #import <UIKit/UIKit.h>
 
+// Om vi vill ha publika properties eller metod deklaritioner
+// så lägger vi dem här.
 @interface ViewController : UIViewController
-
 
 @end

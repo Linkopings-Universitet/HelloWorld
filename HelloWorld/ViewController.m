@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import <AVFoundation/AVFoundation.h>
 
+// Här declarerar vi privata properties
 @interface ViewController ()
 
 @property (strong, nonatomic) AVAudioPlayer *audioPlayer;
@@ -20,6 +21,7 @@
 
 @end
 
+// Här börjar implementationen av våran klass
 @implementation ViewController
 
 #pragma mark - View lifecycle
