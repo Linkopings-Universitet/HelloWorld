@@ -70,7 +70,7 @@
         self.shakeCount++;
         
         // Uppdatera texten som visas på skärmen
-        self.shakeLabel.text = [NSString stringWithFormat:@"Du har skakat på skärmen %d gånger", self.shakeCount];
+        self.shakeLabel.text = [NSString stringWithFormat:@"Du har skakat på skärmen %lu gånger", (unsigned long)self.shakeCount];
     }
 }
 
