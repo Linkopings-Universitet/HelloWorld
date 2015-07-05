@@ -8,15 +8,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController : UIViewController
-
-@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
-@property (weak, nonatomic) IBOutlet UILabel *shakeLabel;
-
-// NSUinterger är inte ett object och behöver inte en strong eller weak reference
-@property (nonatomic) NSUInteger shakeCount;
 
 
 @end

@@ -8,6 +8,17 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
+
+@interface ViewController ()
+
+@property (strong, nonatomic) AVAudioPlayer *audioPlayer;
+@property (weak, nonatomic) IBOutlet UILabel *shakeLabel;
+
+// NSUinterger är inte ett object och behöver inte en strong eller weak reference
+@property (nonatomic) NSUInteger shakeCount;
+
+@end
 
 @implementation ViewController
 
@@ -37,13 +48,6 @@
     [self becomeFirstResponder];
 }
 
-#pragma mark - UIViewController
-
-- (NSUInteger)supportedInterfaceOrientations {
-    // Tillåt att vrida vyn åt alla håll
-    return UIInterfaceOrientationMaskAll;
-}
-
 #pragma mark - UIResponder
 
 - (BOOL)canBecomeFirstResponder {
@@ -53,6 +57,7 @@
 #pragma mark - UIResponder - Motion event handling
 
 - (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event {
+    
     // Kollar att rörelsen var en skakning
     if (event.type == UIEventSubtypeMotionShake) {
         // Skriv ut debug-skrift till loggen
