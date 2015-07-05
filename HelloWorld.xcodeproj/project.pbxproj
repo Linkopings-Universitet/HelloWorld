@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1FACB3A18856CED006EB326 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B1FACB3918856CED006EB326 /* Default-568h@2x.png */; };
 		D19436CE14C5C76700DACC1B /* aaa.wav in Resources */ = {isa = PBXBuildFile; fileRef = D19436CD14C5C76700DACC1B /* aaa.wav */; };
 		D19436D114C5F63400DACC1B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D19436D014C5F63400DACC1B /* AVFoundation.framework */; };
 		D1FD57C014C5C5D1008FF6B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FD57BF14C5C5D1008FF6B1 /* UIKit.framework */; };
@@ -16,13 +15,11 @@
 		D1FD57CA14C5C5D1008FF6B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D1FD57C814C5C5D1008FF6B1 /* InfoPlist.strings */; };
 		D1FD57CC14C5C5D1008FF6B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD57CB14C5C5D1008FF6B1 /* main.m */; };
 		D1FD57D014C5C5D1008FF6B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD57CF14C5C5D1008FF6B1 /* AppDelegate.m */; };
-		D1FD57D314C5C5D1008FF6B1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FD57D114C5C5D1008FF6B1 /* MainStoryboard_iPhone.storyboard */; };
-		D1FD57D614C5C5D1008FF6B1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FD57D414C5C5D1008FF6B1 /* MainStoryboard_iPad.storyboard */; };
+		D1FD57D314C5C5D1008FF6B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FD57D114C5C5D1008FF6B1 /* MainStoryboard.storyboard */; };
 		D1FD57D914C5C5D1008FF6B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FD57D814C5C5D1008FF6B1 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1FACB3918856CED006EB326 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		D19436CD14C5C76700DACC1B /* aaa.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = aaa.wav; sourceTree = "<group>"; };
 		D19436D014C5F63400DACC1B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D1FD57BB14C5C5D1008FF6B1 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,8 +32,7 @@
 		D1FD57CD14C5C5D1008FF6B1 /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		D1FD57CE14C5C5D1008FF6B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D1FD57CF14C5C5D1008FF6B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D1FD57D214C5C5D1008FF6B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		D1FD57D514C5C5D1008FF6B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D1FD57D214C5C5D1008FF6B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D1FD57D714C5C5D1008FF6B1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D1FD57D814C5C5D1008FF6B1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +85,7 @@
 			children = (
 				D1FD57CE14C5C5D1008FF6B1 /* AppDelegate.h */,
 				D1FD57CF14C5C5D1008FF6B1 /* AppDelegate.m */,
-				D1FD57D114C5C5D1008FF6B1 /* MainStoryboard_iPhone.storyboard */,
-				D1FD57D414C5C5D1008FF6B1 /* MainStoryboard_iPad.storyboard */,
+				D1FD57D114C5C5D1008FF6B1 /* MainStoryboard.storyboard */,
 				D1FD57D714C5C5D1008FF6B1 /* ViewController.h */,
 				D1FD57D814C5C5D1008FF6B1 /* ViewController.m */,
 				D1FD57C614C5C5D1008FF6B1 /* Supporting Files */,
@@ -105,7 +100,6 @@
 				D1FD57C814C5C5D1008FF6B1 /* InfoPlist.strings */,
 				D1FD57CB14C5C5D1008FF6B1 /* main.m */,
 				D1FD57CD14C5C5D1008FF6B1 /* HelloWorld-Prefix.pch */,
-				B1FACB3918856CED006EB326 /* Default-568h@2x.png */,
 				D19436CD14C5C76700DACC1B /* aaa.wav */,
 			);
 			name = "Supporting Files";
@@ -162,9 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1FD57CA14C5C5D1008FF6B1 /* InfoPlist.strings in Resources */,
-				D1FD57D314C5C5D1008FF6B1 /* MainStoryboard_iPhone.storyboard in Resources */,
-				D1FD57D614C5C5D1008FF6B1 /* MainStoryboard_iPad.storyboard in Resources */,
-				B1FACB3A18856CED006EB326 /* Default-568h@2x.png in Resources */,
+				D1FD57D314C5C5D1008FF6B1 /* MainStoryboard.storyboard in Resources */,
 				D19436CE14C5C76700DACC1B /* aaa.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,20 +185,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		D1FD57D114C5C5D1008FF6B1 /* MainStoryboard_iPhone.storyboard */ = {
+		D1FD57D114C5C5D1008FF6B1 /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D1FD57D214C5C5D1008FF6B1 /* en */,
 			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		D1FD57D414C5C5D1008FF6B1 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D1FD57D514C5C5D1008FF6B1 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
+			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
