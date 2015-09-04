@@ -12,12 +12,14 @@ Har du några frågor eller behöver hjälp/handledning så finns det lärare (o
 ###Länkar
 * [About App Distribution](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html)
 * [About Objective-C](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
+* [iOS Simulator User Guide](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/iOS_Simulator_Guide/index.html#//apple_ref/doc/uid/TP40012848-CH1-SW1)
+* [What are Frameworks?](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WhatAreFrameworks.html#//apple_ref/doc/uid/20002303-BBCEIJFI)
 
 ###Förberedelseuppgifter / frågor
 
 Svara på dessa frågor helst innan du sätter igång med uppgiften. Frågor märkta med * ska du skicka in svaren för.
 
-Vad krävs för att utveckla en app till iPhone eller iPad, om du dessutom ska kunna testa den app du gör på riktig hårdvara?
+* Vad krävs för att utveckla en app till iPhone eller iPad, om du dessutom ska kunna testa den app du gör på riktig hårdvara?
 Vad är de största skillnaderna mellan en iPhone och iPad ur en utvecklares perspektiv (gällande till exempel hårdvara och formfaktor)? Nämn minst två saker.
 Vad blir utfallet av att köra en iPhone-app på en iPad? Vad behöver du ändra på för att en app ska fungera som en "riktig" app på båda enheterna? Vad kallas en sådan app (ett ord)?
 * Under utveckling, vilka möjligheter finns det att testa en app utan att använda en fysisk iPhone eller iPad? Vilka begränsningar medför detta? Är det någonting som inte går att testa utan fysisk hårdvara?
