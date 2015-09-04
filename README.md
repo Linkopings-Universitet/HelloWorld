@@ -10,9 +10,8 @@ Har du några frågor eller behöver hjälp/handledning så finns det lärare (o
 ##Förberedelser
 
 ###Länkar
-
-* About App Distribution
-* About Objective-C
+* [About App Distribution](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/Introduction/Introduction.html)
+* [About Objective-C](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)
 
 ###Förberedelseuppgifter / frågor
 
