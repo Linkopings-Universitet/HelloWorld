@@ -131,7 +131,7 @@
 		D1FD57B214C5C5D1008FF6B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0720;
 			};
 			buildConfigurationList = D1FD57B514C5C5D1008FF6B1 /* Build configuration list for PBXProject "HelloWorld" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -211,6 +211,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -276,6 +277,7 @@
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.liu.725G60.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +291,7 @@
 				GCC_PREFIX_HEADER = "HelloWorld/HelloWorld-Prefix.pch";
 				INFOPLIST_FILE = "HelloWorld/HelloWorld-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "se.liu.725G60.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
